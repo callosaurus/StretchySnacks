@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StretchySnacks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,47 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KYg-4L-pDS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fF-lJ-Cdx">
+                                        <rect key="frame" x="321" y="26" width="46" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Fgl-Zm-594"/>
+                                            <constraint firstAttribute="width" constant="46" id="xPa-ad-gPZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="＋"/>
+                                        <connections>
+                                            <action selector="plusIconPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oxl-Sa-DvK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90545685279187815" green="0.90545685279187815" blue="0.90545685279187815" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5fF-lJ-Cdx" secondAttribute="trailing" constant="8" id="ByP-h7-yM8"/>
+                                    <constraint firstItem="5fF-lJ-Cdx" firstAttribute="top" secondItem="KYg-4L-pDS" secondAttribute="top" constant="26" id="fHc-1E-vWm"/>
+                                    <constraint firstAttribute="height" constant="64" id="j3Y-aK-6yO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KYg-4L-pDS" secondAttribute="trailing" id="OzM-6I-lAy"/>
+                            <constraint firstItem="KYg-4L-pDS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="asY-k9-lf9"/>
+                            <constraint firstItem="KYg-4L-pDS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="o38-yR-EIJ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="navBarHeightConstraint" destination="j3Y-aK-6yO" id="BYs-yJ-TLc"/>
+                        <outlet property="navBarView" destination="KYg-4L-pDS" id="02X-BE-Thb"/>
+                        <outlet property="plusButton" destination="5fF-lJ-Cdx" id="6Mb-5U-3bN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="95.802098950524751"/>
         </scene>
     </scenes>
 </document>
