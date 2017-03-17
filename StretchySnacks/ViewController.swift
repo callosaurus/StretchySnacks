@@ -55,8 +55,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        oreoImageView = UIImageView()
+        pizzaPocketImageView = UIImageView()
+        poptartImageView = UIImageView()
+        popsicleImageView = UIImageView()
+        ramenImageView = UIImageView()
         setStackView()
-        
         
     }
     
@@ -76,7 +80,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         stackView!.addArrangedSubview(popsicleImageView!)
         stackView!.addArrangedSubview(ramenImageView!)
         
-        
         stackView!.translatesAutoresizingMaskIntoConstraints = false;
         navBarView.addSubview(self.stackView!)
         stackView!.isHidden = !isExpanded
@@ -87,6 +90,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     fileprivate func getImageViews() {
+        
+        //needs refactoring with for-in loop
         
         oreoImageView = UIImageView(image:UIImage(named: "oreos.png"))
         oreoImageView!.frame = CGRect(x: 0, y: 0, width: 50, height: 150)
@@ -134,6 +139,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ramenImageView?.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(imageTapped(_:))))
     }
     
+    
     func imageTapped(_ img: UITapGestureRecognizer)
     {
         
@@ -142,11 +148,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if img.view?.tag == oreoImageView?.tag {
             snackName = "Oreos"
         }
-        
         if img.view?.tag == poptartImageView?.tag {
             snackName = "Poptarts"
         }
-    
         if img.view?.tag == popsicleImageView?.tag {
             snackName = "Popsicle"
         }
@@ -172,10 +176,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cellIdentifier = "Cell"
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let snackName = snacksArray[indexPath.row]
         cell.textLabel?.text = snackName
         
