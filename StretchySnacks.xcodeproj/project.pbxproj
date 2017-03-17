@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FABC82E1E7B755000B1E04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABC82D1E7B755000B1E04F /* AppDelegate.swift */; };
+		3FABC8301E7B755000B1E04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABC82F1E7B755000B1E04F /* ViewController.swift */; };
+		3FABC8331E7B755000B1E04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FABC8311E7B755000B1E04F /* Main.storyboard */; };
+		3FABC8361E7B755000B1E04F /* StretchySnacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FABC8341E7B755000B1E04F /* StretchySnacks.xcdatamodeld */; };
+		3FABC8381E7B755000B1E04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FABC8371E7B755000B1E04F /* Assets.xcassets */; };
+		3FABC83B1E7B755000B1E04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FABC8391E7B755000B1E04F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FABC82A1E7B755000B1E04F /* StretchySnacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StretchySnacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FABC82D1E7B755000B1E04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FABC82F1E7B755000B1E04F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FABC8321E7B755000B1E04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FABC8351E7B755000B1E04F /* StretchySnacks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StretchySnacks.xcdatamodel; sourceTree = "<group>"; };
+		3FABC8371E7B755000B1E04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FABC83A1E7B755000B1E04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FABC83C1E7B755000B1E04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FABC8271E7B755000B1E04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FABC8211E7B755000B1E04F = {
+			isa = PBXGroup;
+			children = (
+				3FABC82C1E7B755000B1E04F /* StretchySnacks */,
+				3FABC82B1E7B755000B1E04F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FABC82B1E7B755000B1E04F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FABC82A1E7B755000B1E04F /* StretchySnacks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FABC82C1E7B755000B1E04F /* StretchySnacks */ = {
+			isa = PBXGroup;
+			children = (
+				3FABC82D1E7B755000B1E04F /* AppDelegate.swift */,
+				3FABC82F1E7B755000B1E04F /* ViewController.swift */,
+				3FABC8311E7B755000B1E04F /* Main.storyboard */,
+				3FABC8371E7B755000B1E04F /* Assets.xcassets */,
+				3FABC8391E7B755000B1E04F /* LaunchScreen.storyboard */,
+				3FABC83C1E7B755000B1E04F /* Info.plist */,
+				3FABC8341E7B755000B1E04F /* StretchySnacks.xcdatamodeld */,
+			);
+			path = StretchySnacks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FABC8291E7B755000B1E04F /* StretchySnacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FABC83F1E7B755000B1E04F /* Build configuration list for PBXNativeTarget "StretchySnacks" */;
+			buildPhases = (
+				3FABC8261E7B755000B1E04F /* Sources */,
+				3FABC8271E7B755000B1E04F /* Frameworks */,
+				3FABC8281E7B755000B1E04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StretchySnacks;
+			productName = StretchySnacks;
+			productReference = 3FABC82A1E7B755000B1E04F /* StretchySnacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FABC8221E7B755000B1E04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Callum Davies";
+				TargetAttributes = {
+					3FABC8291E7B755000B1E04F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L73BUW34SZ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3FABC8251E7B755000B1E04F /* Build configuration list for PBXProject "StretchySnacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FABC8211E7B755000B1E04F;
+			productRefGroup = 3FABC82B1E7B755000B1E04F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FABC8291E7B755000B1E04F /* StretchySnacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FABC8281E7B755000B1E04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FABC83B1E7B755000B1E04F /* LaunchScreen.storyboard in Resources */,
+				3FABC8381E7B755000B1E04F /* Assets.xcassets in Resources */,
+				3FABC8331E7B755000B1E04F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FABC8261E7B755000B1E04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FABC8361E7B755000B1E04F /* StretchySnacks.xcdatamodeld in Sources */,
+				3FABC8301E7B755000B1E04F /* ViewController.swift in Sources */,
+				3FABC82E1E7B755000B1E04F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FABC8311E7B755000B1E04F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FABC8321E7B755000B1E04F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FABC8391E7B755000B1E04F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FABC83A1E7B755000B1E04F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FABC83D1E7B755000B1E04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FABC83E1E7B755000B1E04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FABC8401E7B755000B1E04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L73BUW34SZ;
+				INFOPLIST_FILE = StretchySnacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caldavies.StretchySnacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FABC8411E7B755000B1E04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L73BUW34SZ;
+				INFOPLIST_FILE = StretchySnacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = caldavies.StretchySnacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FABC8251E7B755000B1E04F /* Build configuration list for PBXProject "StretchySnacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FABC83D1E7B755000B1E04F /* Debug */,
+				3FABC83E1E7B755000B1E04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FABC83F1E7B755000B1E04F /* Build configuration list for PBXNativeTarget "StretchySnacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FABC8401E7B755000B1E04F /* Debug */,
+				3FABC8411E7B755000B1E04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FABC8341E7B755000B1E04F /* StretchySnacks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FABC8351E7B755000B1E04F /* StretchySnacks.xcdatamodel */,
+			);
+			currentVersion = 3FABC8351E7B755000B1E04F /* StretchySnacks.xcdatamodel */;
+			path = StretchySnacks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FABC8221E7B755000B1E04F /* Project object */;
+}
